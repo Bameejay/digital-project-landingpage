@@ -75,10 +75,10 @@ function Projects() {
         <img src={slideNumbersProject} alt="slidenumbers" />
       </div>
       <div className='nav-arrows'>
-        <button>
+        <button className='pagination button'>
           <FontAwesomeIcon icon={faArrowLeft} className='prev-button'/>
         </button>
-        <button>
+        <button className='pagination button'>
           <FontAwesomeIcon icon={faArrowRight} className='next-button'/>
         </button>
       </div>

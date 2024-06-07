@@ -347,10 +347,32 @@ form textarea {
     }
 }
 
-.prev-button {
-    padding: 6px;
-}
-
+.prev-button,
 .next-button {
     padding: 6px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.nav-arrows {
+    display: flex;
+    gap: 10px;
+}
+
+.prev-button:focus,
+.next-button:focus {
+    outline: none;
+    border: none;
+}
+
+.prev-button:active,
+.next-button:active {
+    outline: none;
+    border: none;
+}
+
+.pagination-button {
+    border: none;
+    outline: none;
 }

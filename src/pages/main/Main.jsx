@@ -24,10 +24,10 @@ function Main() {
             <p><span className='top-text'>PROJECT</span><br></br><span>Lorum</span></p>
           </div>
             <div className='nav-arrows'>
-              <button>
+              <button className='pagination-button'>
                 <FontAwesomeIcon icon={faArrowLeft} className='prev-button' />
               </button>
-              <button>
+              <button className='pagination-button'>
                 <FontAwesomeIcon icon={faArrowRight} className='next-button'/>
               </button>
             </div>
