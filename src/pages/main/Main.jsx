@@ -37,8 +37,15 @@ function Main() {
           </div>
 
         {/* Start Right-Item Section */}
-        <div className="right-item">
-          <img src={heroImage} alt="hero_image" />
+        <div className="hero-right-item">
+          <div className='right-item-hero-img' >
+            <img src={heroImage} alt="hero_image" />
+          </div>
+          <div>
+            <button className='hero-image-button-right'>
+              VIEW PROJECT<FontAwesomeIcon icon={faArrowRight} className='sample-project-btn-arrow' />
+            </button>
+          </div>
         </div>
       </div>
 

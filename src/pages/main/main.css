@@ -1,8 +1,44 @@
 /* Hero Section */
 
-.hero-section {
+
+/* .hero-section {
     display: flex;
     margin-top: 16px;
+} */
+
+.hero-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+
+.hero-right-item {
+    position: relative;
+}
+
+.right-item-hero-img {
+    position: relative;
+}
+
+.hero-image-button-right {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    color: #333333;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-image-button-right .sample-project-btn-arrow {
+    margin-left: 15px;
 }
 
 .left-item {
@@ -27,13 +63,13 @@
     color: #BDBDBD;
 }
 
-.right-item img {
+.hero-right-item img {
     height: auto;
     width: 100%;
     object-fit: cover;
 }
 
-.right-item {
+.hero-right-item {
     flex: 1;
 }
 
@@ -224,7 +260,7 @@
 }
 
 .sample-project-btn button {
-    padding: 8px;
+    /* padding: 8px; */
     font-size: .55rem;
     font-weight: bold;
     letter-spacing: 2px;
@@ -338,10 +374,14 @@ form textarea {
 
 @media (max-width: 768px) {
     .hero-section {
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin-top: 40px;
+    }
+    .hero-right-item {
+        margin: 40px 0;
     }
     .left-item {
         align-items: center;
@@ -361,7 +401,7 @@ form textarea {
         align-items: center;
     }
     .about-page .right-item {
-        margin-top: 20px;
+        /* margin-top: 10px; */
         margin-bottom: 30px;
     }
     .about-page .left-item {
@@ -444,7 +484,7 @@ form textarea {
         /* font-size: .52rem; */
     }
     .sample-project-btn button {
-        padding: 8px;
+        /* padding: 8px; */
         font-size: .3rem;
         font-weight: bold;
         letter-spacing: 2px;
