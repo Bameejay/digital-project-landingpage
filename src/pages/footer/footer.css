@@ -11,6 +11,18 @@
     /* Adjust background color as needed */
 }
 
+.footer-first-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.footer-second-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
 .white-color-logo,
 .information-footer,
 .contacts-footer,
@@ -132,6 +144,17 @@
     .footer-container>div {
         margin-bottom: 20px;
     }
+    .footer-first-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .footer-second-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -149,5 +172,16 @@
     }
     .social-media svg {
         font-size: 12px;
+    }
+    .footer-first-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .footer-second-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 20px;
     }
 }

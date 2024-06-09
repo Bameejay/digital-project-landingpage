@@ -37,6 +37,15 @@
     flex: 1;
 }
 
+.pagination-button .prev-button,
+.next-button {
+    padding: 8px;
+}
+
+.pagination-button .next-button {
+    background-color: #f3f3f3;
+}
+
 
 /* About Section */
 
@@ -192,6 +201,50 @@
 }
 
 
+/* .sample-project {
+    position: relative;
+} */
+
+.first-column .sample-project {
+    position: relative;
+}
+
+.sample-project-text {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.sample-project-btn {
+    margin-top: 10px;
+    border-style: none;
+    /* font-size: .52rem; */
+}
+
+.sample-project-btn button {
+    padding: 8px;
+    font-size: .55rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    /* filter: brightness(50%); */
+    color: #fff;
+    /* all: unset; */
+    background: transparent;
+}
+
+.first-sample-project-img {
+    filter: brightness(50%);
+}
+
+.sample-project-btn .sample-project-btn-arrow {
+    margin-left: 10px;
+}
+
+
 /* Contact Us Styling */
 
 .contact-us p {
@@ -288,16 +341,31 @@ form textarea {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 40px;
     }
     .left-item {
         align-items: center;
+        gap: 24px;
     }
     .first-para {
         font-size: 1.5rem;
     }
+    .first-para .top-text {
+        font-size: 4rem;
+    }
+    .top-text-other {
+        font-size: 4rem;
+    }
     .about-page {
         flex-direction: column;
         align-items: center;
+    }
+    .about-page .right-item {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .about-page .left-item {
+        display: none;
     }
     .about-page .about-title {
         font-size: 2rem;
@@ -323,6 +391,76 @@ form textarea {
     .contactus-button {
         width: 50%;
     }
+    .mainfocus .boxes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .boxes .focus-right-item,
+    .focus-left-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px;
+        /* background-color: red; */
+    }
+    .focus-right-item {
+        margin-top: 30px;
+    }
+    .our-project-button {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .form-container-img .right-item {
+        display: none;
+    }
+    .footer-container .white-color-logo {
+        text-align: start;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main {
+        width: 100vw;
+        height: 100vh;
+    }
+    /* Our Projects */
+    .first-column .sample-project {
+        position: relative;
+    }
+    .sample-project-text {
+        position: absolute;
+        top: 3px;
+        left: 20px;
+        font-size: .55rem;
+        color: #fff;
+    }
+    .sample-project-btn {
+        margin-top: 0;
+        border-style: none;
+        /* background: #000; */
+        /* font-size: .52rem; */
+    }
+    .sample-project-btn button {
+        padding: 8px;
+        font-size: .3rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border: none;
+        /* filter: brightness(50%); */
+        color: #fff;
+        /* all: unset; */
+        background: transparent;
+    }
+    .first-sample-project-img {
+        filter: brightness(50%);
+    }
+    .sample-project-btn .sample-project-btn-arrow {
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -344,6 +482,17 @@ form textarea {
     }
     .contactus-button {
         width: 70%;
+    }
+    .focus-right-item {
+        margin-top: 30px;
+    }
+    .our-project-button {
+        display: flex;
+        justify-content: flex-start;
+    }
+    main {
+        width: 100vw;
+        height: 100vh;
     }
 }
 

@@ -13,6 +13,7 @@ export default function Footer() {
   return (
     <div className='footer-bg'>
       <div className="footer-container">
+        <div className='footer-first-column'>
             <div className='white-color-logo'><img src={blackbackgroundLogo} alt="" /></div>
             <div className='information-footer'>
               <h1>Information</h1>
@@ -22,6 +23,8 @@ export default function Footer() {
         <p><Link to="/certifications" className='footer-link'>Certification</Link></p>
         <p><Link to="/contact" className='footer-link'>Contacts</Link></p>
             </div>
+            </div>
+            <div className='footer-second-column'>
             <div className='contacts-footer'>
               <h1>Contacts</h1>
               <p><FontAwesomeIcon icon={faMapMarkerAlt} /> 1234 Sample Street Austin, Texas 78704</p>
@@ -36,6 +39,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faLinkedin} />
                 <FontAwesomeIcon icon={faPinterest} />
               </div>
+            </div>
             </div>
           </div>
           <hr className='footer-line' />

@@ -21,7 +21,7 @@ function Main() {
         {/* Start Left-Item Section */}
         <div className="left-item">
           <div className='first-para'>
-            <p><span className='top-text'>PROJECT</span><br></br><span>Lorum</span></p>
+            <p><span className='top-text'>PROJECT</span><br></br><span className='top-text-other'>Lorum</span></p>
           </div>
             <div className='nav-arrows'>
               <button className='pagination-button'>
@@ -96,14 +96,17 @@ function Main() {
       <div className='first-row-container'>
       <div className='first-column'>
         <div className='sample-project'>
-          <img src={sampleImage} alt="" />
-        {/* <div className='text'>
-          <h1>Sample Project</h1>
-          <div>
-          <p>VIEW MORE</p>
-          <FontAwesomeIcon icon={faArrowRight} />
+          <div className='first-sample-project-img'>
+            <img src={sampleImage} alt=""/>
           </div>
-        </div> */}
+        <div className='sample-project-text'>
+          <h1>Sample <br /> Project</h1>
+          <div className='sample-project-btn'>
+          <button>
+            VIEW MORE<FontAwesomeIcon icon={faArrowRight} className='sample-project-btn-arrow' />
+          </button>
+          </div>
+        </div>
         </div>
         
       </div>
@@ -156,38 +159,6 @@ function Main() {
           </div>
         </div>
       </div>
-
-      {/* Footer Section */}
-
-          {/* <div className="footer-container">
-            <div className='white-color-logo'><img src={blackbackgroundLogo} alt="" /></div>
-            <div className='information-footer'>
-              <h1>Information</h1>
-              <p>Main</p>
-              <p>Gallery</p>
-              <p>Projects</p>
-              <p>Contacts</p>
-            </div>
-            <div className='contacts-footer'>
-              <h1>Contacts</h1>
-              <p>1234 sample Street Austin Texas 78704</p>
-              <p>512-333-2222</p>
-              <p>sampleemail@gmail.com</p>
-            </div>
-            <div className='social-media'>
-              <h1>Social Media</h1>
-            <FontAwesomeIcon icon={faFacebookF} />
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faPinterest} />
-            </div>
-          </div> */}
-{/* <Footer/> */}
-
-
-
-
-
     </div>
   );
 }
