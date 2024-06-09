@@ -522,6 +522,10 @@ form textarea {
     .sample-project-btn .sample-project-btn-arrow {
         margin-left: 10px;
     }
+    .footer-container {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -554,6 +558,10 @@ form textarea {
     main {
         width: 100vw;
         height: 100vh;
+    }
+    .footer-container {
+        position: absolute;
+        bottom: 0;
     }
 }
 
