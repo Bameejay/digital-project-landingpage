@@ -131,18 +131,11 @@
 }
 
 @media (max-width: 768px) {
-    .footer-container {
-        padding: 40px 5%;
-        flex-direction: column;
-    }
     .white-color-logo,
     .information-footer,
     .contacts-footer,
     .social-media {
         flex: 1 1 100%;
-    }
-    .footer-container>div {
-        margin-bottom: 20px;
     }
     .footer-first-column {
         display: grid;
