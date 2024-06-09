@@ -63,8 +63,9 @@ function Main() {
           Porro illum explicabo dolor, illo recusandae consequuntur odit esse repellat ipsam unde velit reprehenderit. A, iusto adipisci fugit facilis incidunt, neque, expedita similique sint culpa officia eligendi hic rerum maxime.</p>
         </div>
         <div className='readmore-button'>
-          <p>READ MORE</p>
-          <FontAwesomeIcon icon={faArrowRight} />
+          <button>READ MORE
+          <FontAwesomeIcon icon={faArrowRight} className='readmore-button-arrow'/>
+          </button>
         </div>
       </div>
     </div>
@@ -152,10 +153,10 @@ function Main() {
         <div className='form-container'>
           <form action="">
               <input type="text" placeholder='Name' className='input-box'/><br />
-              <input type="number" placeholder='Phone Number' className='input-box'/><br />
-              <input type="email" placeholder='Email' className='input-box'/><br />
-              <input type="text" placeholder='Interested' className='input-box'/><br />
-              <textarea name="" id="" placeholder='Message'></textarea>
+                <input type="number" placeholder='Phone Number' className='input-box' required /><br />
+                <input type="email" placeholder='Email' className='input-box' required /><br />
+                <input type="text" placeholder='Interested In' className='input-box'/><br />
+                <textarea name="" id="" placeholder='Message'></textarea>
             </form>
             <button className='contactus-button'>
                 SEND EMAIL <FontAwesomeIcon icon={faArrowRight} />

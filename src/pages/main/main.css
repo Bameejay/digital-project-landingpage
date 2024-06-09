@@ -117,17 +117,29 @@
 }
 
 .readmore-button {
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-    background-color: #fff;
     padding: 10px 5px;
     cursor: pointer;
 }
 
-.readmore-button p {
-    margin-right: 4px;
-    font-size: 0.75rem;
+.about-page button {
+    padding: 16px;
+    color: #333333;
+    background-color: #fff;
+    border-style: none;
+    gap: 10px;
+    font-size: 0.5rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.readmore-button-arrow {
+    margin-left: 10px;
+}
+
+.our-project-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
 }
 
 
@@ -325,6 +337,11 @@ form input {
 
 form textarea {
     width: 100%;
+}
+
+.required-asterisk {
+    color: red;
+    margin-left: 5px;
 }
 
 .form-container form input,
