@@ -523,8 +523,7 @@ form textarea {
         margin-left: 10px;
     }
     .footer-container {
-        position: absolute;
-        bottom: 0;
+        height: 100vh;
     }
 }
 
@@ -558,10 +557,6 @@ form textarea {
     main {
         width: 100vw;
         height: 100vh;
-    }
-    .footer-container {
-        position: absolute;
-        bottom: 0;
     }
 }
 
