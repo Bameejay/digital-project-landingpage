@@ -6,8 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
-    padding: 80px 10%;
+    padding: 30px;
+    /* padding: 80px 10%; */
     /* Adjust background color as needed */
 }
 
