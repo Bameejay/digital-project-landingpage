@@ -10,7 +10,7 @@ body {
 
 .container {
     padding: 20px 10%;
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar {
@@ -76,7 +76,7 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
     .nav-links {
         display: none;
