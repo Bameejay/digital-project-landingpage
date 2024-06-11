@@ -10,6 +10,7 @@ body {
 
 .container {
     padding: 20px 10%;
+    width: 100vw;
 }
 
 .navbar {
@@ -74,6 +75,9 @@ body {
 /* Responsive Styles */
 
 @media (max-width: 768px) {
+    .container {
+        width: 100vw;
+    }
     .nav-links {
         display: none;
         flex-direction: column;

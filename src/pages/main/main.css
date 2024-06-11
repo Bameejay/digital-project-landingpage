@@ -501,11 +501,8 @@ form textarea {
     .sample-project-btn {
         margin-top: 0;
         border-style: none;
-        /* background: #000; */
-        /* font-size: .52rem; */
     }
     .sample-project-btn button {
-        /* padding: 8px; */
         font-size: .3rem;
         font-weight: bold;
         letter-spacing: 2px;
