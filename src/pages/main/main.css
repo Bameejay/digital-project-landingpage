@@ -583,3 +583,10 @@ form textarea {
     border: none;
     outline: none;
 }
+
+@media (max-width: 1024px) {
+    .about-page {
+        display: flex;
+        flex-direction: column;
+    }
+}
